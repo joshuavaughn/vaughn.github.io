@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg class="button" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="undefined"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="/html/aboutme">About Me</a></li>
+            <li><a href="/html/project">Project</a></li>
+            <li><a href="/html/skill">Experience</a></li>
+        </ul>
+        <ul>
+            <li id="home"><a href="./">Vaughn Joshua</a></li>
+            <li class="hideOnMobile"><a href="/html/aboutme">About Me</a></li>
+            <li class="hideOnMobile"><a href="/html/project">Project</a></li>
+            <li class="hideOnMobile"><a href="/html/skill">Experience</a></li>
+            <li class="menu-button" onclick="showSidebar()"><svg class="button" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="undefined"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
+        </ul>
+    </nav>
+    
+    <section id="experience-page">
+        <div id="bg-txt">
+            <h1>Vaughn</h1>
+        </div>
+        <div id="top-marker"></div>
+        <div id="project-title">
+                <h1>My Works</h1>
+        </div>
+        <div id="hustle-container">
+            <div id="cj" class="hustle">
+                <img src="/sources/images/cj foods.png" alt="">
+                <h1>CJ Foods</h1>
+                <h3>Graphic Artist for Korean Company</h3>
+                <p>As a recognized, Adobe Photoshop Curriculum Graduate, I have been interested in photo editing. This helped me land a Graphic Artist Hustle where I redesign and translate CJ Foods product packaging.</p>
+                <a href="/sources/pdf/cj foods.pdf"target="_blank">CJ Foods</a>
+            </div>
+            <div id="becarman" class="hustle">
+                <img src="/sources/images/becarmanlogo.png" alt="">
+                <h2>Becarman</h2>
+                <h3>Social Media Manager for a startup</h3>
+                <p>I also have experience with managing social media accounts, creating contents that include content conceptualization, video editing, and social media marketing.</p>
+                <a href="https://www.facebook.com/Becarman.Official"target="_blank">Becarman</a>
+            </div>
+            <div id="side" class="hustle">
+                <img src="/sources/images/side-hustle.webp" alt="">
+                <h2>Side Hustles</h2>
+                <p>In my spare time I also take commission works from achitecture studetns all the way to small start up companies. It includes filming, editing videos, photoshop projects, and business graphics.</p>
+                <a href="/sources/pdf/side.pdf"target="_blank">Side Hustles</a>
+            </div>
+        </div>
+        <footer>
+        <p>&copy all rights reserved, one project at a time! </p>
+    </footer>
+    </section>
+
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display ='flex'
+        }
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display ='none'
+        }
+    </script>
+</body>
+</html>

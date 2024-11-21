@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg class="button" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="undefined"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="/html/aboutme">About Me</a></li>
+            <li><a href="/html/project">Project</a></li>
+            <li><a href="/html/skill">Experience</a></li>
+        </ul>
+        <ul>
+            <li id="home"><a href="./">Vaughn Joshua</a></li>
+            <li class="hideOnMobile"><a href="/html/aboutme">About Me</a></li>
+            <li class="hideOnMobile"><a href="/html/project">Project</a></li>
+            <li class="hideOnMobile"><a href="/html/skill">Experience</a></li>
+            <li class="menu-button" onclick="showSidebar()"><svg class="button" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="undefined"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
+        </ul>
+    </nav>
+    
+    <section id="aboutme-page">
+        <div id="bg-txt">
+            <h1>Vaughn</h1>
+        </div>
+        <div id="top-marker"></div>
+
+        <div id="abtme-title">
+            <img src="/sources/images/abtme.jpg" alt="">
+            <div id="abtme-title-txt">
+                <h1>Vaughn Joshua B Barit</h1>
+                <p>I am a third-year BS Information Systems student at TUP Manila with a passion for blending technology and creativity. From designing user-friendly interfaces to developing practical solutions, I enjoy learning and applying new skills to real-world challenges. Always eager to grow, I strive to create meaningful projects that make an impact.</p>
+                <div id="abtme-contact">
+                    <ul>
+                        <li>Phone: +63 969 089 5449</li>
+                        <li>Location: Pasay City, Metro Manila, Philippines</li>
+                        <li>Email: school.vaughnjohua@gmail.com</li>
+                        <li>Facebook: Vaughn Joshua B. Barit</li>
+                    </ul>
+                </div>
+                <p>Outside of academics, I dedicate my time to serving at my church, Sta. Clara de Montefalco - Pasay, where I have been an active member since 2014. Much of who I am today stems from the lessons and values I’ve learned through my service there, shaping both my character and work ethic. Beyond church, I channel my creativity through design, taking on commission and part-time jobs. I’ve worked as a video editor for a startup company, managed social media accounts, and served as a graphic artist for a prominent Korean company. These experiences have allowed me to merge my passion for design with professional growth, contributing to projects that are both meaningful and impactful.</p>
+            </div>
+        </div>
+
+        <div id="academic-records">
+            <div id="section-title">
+                <h1>Academic Records</h1>
+            </div>
+            <div id="record-container">
+                <div id="college" class="record">
+                    <h1>Technological University of the Philippines - Manila (TUP-M)</h1>
+                    <div class="academic-year">
+                        <h3>2022 - Present</h3>
+                    </div>
+                    <p>Bachelor of Science in Information System (BSIS)</p>
+                    <ul>
+                        <li>1st Term 2022-2023 - Dean's Lister</li>
+                        <li>2nd Term 2022-2023 - Dean's Lister</li>
+                        <li>1st Term 2023-2024 - Dean's Lister</li>
+                        <li>2nd Term 2023-2024 - Dean's Lister</li>
+                    </ul>
+                </div>
+                <div id="Senior-High" class="record">
+                    <h1>Malate Catholic School (MCS)</h1>
+                    <div class="academic-year">
+                        <h3>2019 - 2021</h3>
+                    </div>
+                    <p>Senior Highschool</p>
+                    <ul>
+                        <li>1st Term 2019-2020 - With Honors</li>
+                        <li>2nd Term 2019-2020 - With Honors</li>
+                        <li>1st Term 2020-2021 - With Honors</li>
+                        <li>2nd Term 2020-2021 - With Honors</li>
+                    </ul>
+                </div>
+                <div id="Junior-High" class="record">
+                    <h1>Malate Catholic School (MCS)</h1>
+                    <div class="academic-year">
+                        <h3>2019 - 2021</h3>
+                    </div>
+                    <p>Junior Highschool</p>
+                    <ul>
+                        <li>4th Year 2018-2019 - With Honors</li>
+                        <li>Consistent Conduct Awardee</li>
+                        <li>MCS, Altar Boys Society President</li>
+                        <li>MCS, Chess Varsity Captain</li>
+                        <li>Active Clarionette Staff (School Paper)</li>
+                        <li>Tanglaw ng Kabataan Active Member (School's Outreach Club)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="certificates">
+            <div id="section-title">
+                <h1>Cetificates</h1>
+            </div>
+            <div id="certificate">
+                <div id="photoshop-cert" class="cert">
+                    <img src="/sources/images/Techokids-Photoshop.png" alt="">
+                    <p>TECCHNOkids recognized, Adobe Photoshop Curriculum Graduate</p>
+                </div>
+                <div id="microsoft-cert" class="cert">
+                    <img src="/sources/images/Microsoft.png" alt="">
+                    <p>Microsoft recognized, Microsoft Office Specialist</p>
+                </div>
+                <div id="shs-diploma" class="cert">
+                    <img src="/sources/images/shs-diploma.png" alt="">
+                    <p>Senior High School Diploma</p>
+                </div>
+            </div>  
+        </div>
+        <footer>
+            <p>&copy all rights reserved, one project at a time! </p>
+        </footer>
+    </section>
+
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display ='flex'
+        }
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display ='none'
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg class="button" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="undefined"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="/html/aboutme">About Me</a></li>
+            <li><a href="/html/project">Project</a></li>
+            <li><a href="/html/skill">Experience</a></li>
+        </ul>
+        <ul>
+            <li id="home"><a href="./">Vaughn Joshua</a></li>
+            <li class="hideOnMobile"><a href="/html/aboutme">About Me</a></li>
+            <li class="hideOnMobile"><a href="/html/project">Project</a></li>
+            <li class="hideOnMobile"><a href="/html/skill">Experience</a></li>
+            <li class="menu-button" onclick="showSidebar()"><svg class="button" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="undefined"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
+        </ul>
+    </nav>
+
+    <section id="project-page">
+        <div id="bg-txt">
+            <h1>Vaughn</h1>
+        </div>
+
+        <div id="top-marker"></div>
+        <div id="project-title">
+                <h1>My Works</h1>
+        </div>
+        <div id="project-container">
+            <div id="Student-Management-System" class="project">
+                    <div id="tup-logo" class="project-logo">
+                        <img src="/sources/images/tuplogo.png" alt="">
+                    </div>
+                    <div id="tup-text" class="textbox">
+                        <div class="project-txt">
+                            <h1>Student Management System</h1>
+                            <p>Developed using Java for the application interface and MySQL as the backend database, tailored for my alma mater, the Technological University of the Philippines (TUP).</p>
+                            <div class="hidden">
+                                <a href="/sources/pdf/java UI.pdf" target="_blank">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div id="save-it" class="project">
+                    <div id="save-logo" class="project-logo">
+                        <img src="/sources/images/budgeting_app.png" alt="">
+                    </div>
+                    <div id="save-text" class="textbox">
+                        <div class="project-txt">
+                            <h1>Cash Budgeting App</h1>
+                            <p>I designed a cash budgeting app prototype using Figma named "Save It!"</p>
+                            <div class="hidden">
+                                <a href="https://www.figma.com/proto/n4UyToWp3stdAYn9785fZE/Cash-Budgeting-App?node-id=22-7&node-type=canvas&t=XEOj36jeAoUru5tS-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=218%3A85    &show-proto-sidebar=1" target="_blank">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div id="blog" class="project">
+                    <div id="blog-logo" class="project-logo">
+                        <img src="/sources/images/blog logo.png" alt="">
+                    </div>
+                    <div id="blog-text" class="textbox">
+                        <div class="project-txt">
+                            <h1>Personal Blog Website</h1>
+                            <p>The site is responsive and built using HTML, CSS, and Bootstrap, making it easy for visitors to explore posts and engage with the content.</p>
+                            <div class="hidden">
+                                <a href="/sources/html/Blog/blog.html" target="_blank">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div id="languages">
+            <div id="project-title">
+                    <h1>Skills</h1>
+            </div>
+            <div id="language-container">
+                    <div id="c" class="language">
+                        <div class="language-logo">
+                            <img src="/sources/images/C_Logo.png" alt="">
+                        </div>
+                        <div class="language-title">
+                            <h1>C</h1>
+                        </div>
+                    </div>
+                    <div id="c++" class="language">
+                        <div class="language-logo">
+                            <img src="/sources/images/C++_Logo.png" alt="">
+                        </div>
+                        <div class="language-title">
+                            <h1>C++</h1>
+                        </div>
+                    </div>
+                    <div id="java" class="language">
+                        <div class="language-logo">
+                            <img src="/sources/images/Java_logo.png" alt="">
+                        </div>
+                        <div class="language-title">
+                            <h1>Java</h1>
+                        </div>
+                    </div>
+                    <div id="html" class="language">
+                        <div class="language-logo">
+                            <img src="/sources/images/html logo.png" alt="">
+                        </div>
+                        <div class="language-title">
+                            <h1>HTML</h1>
+                        </div>
+                    </div>
+                    <div id="css" class="language">
+                        <div class="language-logo">
+                            <img src="/sources/images/css logo.png" alt="">
+                        </div>
+                        <div class="language-title">
+                            <h1>CSS</h1>
+                        </div>
+                    </div>
+                    <div id="js" class="language">
+                        <div class="language-logo">
+                            <img src="/sources/images/js-logo.webp" alt="">
+                        </div>
+                        <div class="language-title">
+                            <h1>Javascript</h1>
+                        </div>
+                    </div>
+                    <div id="sql" class="language">
+                        <div class="language-logo">
+                            <img src="/sources/images/sql-logo.svg" alt="">
+                        </div>
+                        <div class="language-title">
+                            <h1>SQL</h1>
+                        </div>
+                    </div>
+                    <div id="figma" class="language">
+                        <div class="language-logo">
+                            <img src="/sources/images/figma logo.png" alt="">
+                        </div>
+                        <div class="language-title">
+                            <h1>Figma</h1>
+                        </div>
+                    </div>
+                    <div id="photoshop" class="language">
+                        <div class="language-logo">
+                            <img src="/sources/images/photoshop logo.png" alt="">
+                        </div>
+                        <div class="language-title">
+                            <h1>Photoshop</h1>
+                        </div>
+                    </div>
+                    <div id="premiere" class="language">
+                        <div class="language-logo">
+                            <img src="/sources/images/premire pro logo.png" alt="">
+                        </div>
+                        <div class="language-title">
+                            <h1>Premiere Pro</h1>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div id="last-text">
+            <p>There's still so much more to learn and create, and I’m excited to keep growing and adding new projects along the way!</p>
+        </div>        
+
+        <footer>
+            <p>&copy all rights reserved, one project at a time! </p>
+        </footer>
+
+    </section>
+
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display ='flex'
+        }
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display ='none'
+        }
+    </script>
+</body>
+</html>
